@@ -1,4 +1,4 @@
-// TOXXIC MD
+// MI.RICH¥
  const {
  addnote,
  smd,
@@ -67,7 +67,7 @@ smd(
      console.log(usr.ban)
      if (usr.ban !== 'true') return citel.reply(`${usr.name} is already unbanned.`)
      await sck1.updateOne({ id: users }, { ban: 'false' })
-     return citel.reply(`${usr.name} is free as a bird now`)
+     return citel.reply(`${usr.name} is free as a DOG now`)
     }
    })
   } catch {
