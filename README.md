@@ -21,7 +21,7 @@
 
 ### 2. GET SESSION ID HERE 
 
-<a href='https://logan-V2bot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=black'/></a> 
+<a href='https://logan-V1bot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=black'/></a> 
 
 
 ### STEP 2
@@ -43,7 +43,7 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
  ### DEPLOY ON RAILWAY 
 1. Deploy.
     <br>
-    <a href='https://railway.com/github/mirichy419/LOGAN-V2' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=render&logoColor=white'/></a>
+    <a href='https://railway.com/github/mirichy419/LOGAN-V1' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=render&logoColor=white'/></a>
 
  ### DEPLOY ON RENDER 
 1. AFTER YOU FORK AND STAR GET SESSION ID AND CLICK THE BELOW BUTTON
@@ -84,5 +84,4 @@ Add session Id to config.js and then deploy to codespace
 
 - WASI FOR SESSION ID METHOD
 - ASTRO FOR THE BASE I USED
-- DAVID CRYIL FOR INSPIRATION
-- KING FOR SONG DOWNLOADER FIX 
+- TOXXIC FOR INSPIRATION 
