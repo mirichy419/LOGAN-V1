@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Toxic1239/RIASGREMORYBOT  /root/Toxic1239
-WORKDIR /root/Toxic1239/
+RUN git clone https://github.com/Toxic1239/LOGAN-V1  /root/mirichy419
+WORKDIR /root/mirichy419/
 
 
 COPY package.json .
