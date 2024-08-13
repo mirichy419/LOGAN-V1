@@ -29,7 +29,7 @@ async function photoEditor(_0x17796b, _0x343213 = "ad", _0xf62b7f = "", _0xe1eb4
   try {
     let _0x430f77 = _0xc6e0fc.includes(_0x17796b.mtype) ? _0x17796b : _0x17796b.reply_message;
     if (!_0x430f77 || !_0xc6e0fc.includes(_0x430f77?.mtype || "null")) {
-      return await _0x17796b.send("*_Uhh Dear, Reply to an image_*");
+      return await _0x17796b.send("*_Uhh cutie, Reply to an image_*");
     }
     let _0x2de3c4 = await _0x17796b.bot.downloadAndSaveMediaMessage(_0x430f77);
     let _0x9a4084 = await TelegraPh(_0x2de3c4);
@@ -102,7 +102,7 @@ smd({
     try{
         let mm =   m.image ? m : m.reply_message && m.reply_message.image ? m.reply_message : false; 
         
-  let too = `*Separate the text with _:_ sign!*\n*Example : ${prefix + smd} RIAS_GREMORY-BOT _:_ Bot*`
+  let too = `*Separate the text with !:! sign!*\n*Example : ${prefix + smd} LOGAN-V1-BOT _:_ Bot*`
   if(!mm) {
     let str = `┌───〈 *ᴇᴅɪᴛᴏʀ ᴍᴇɴᴜ*  〉───◆
 │╭─────────────···▸
