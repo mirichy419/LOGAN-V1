@@ -2,7 +2,7 @@ const {
    smd
 } = require('../lib')
 smd({
-   cmdname: "dog",
+   cmdname: "imgdog",
    desc: "Send videos of randome dogs!",
    type: "misc",
    filename: __filename,
