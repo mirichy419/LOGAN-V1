@@ -2,7 +2,7 @@ let {smd} = require("../lib")
 smd({
 	pattern: 'clear',
 	fromMe: true,
-	desc: 'delete whatsapp chat',
+	desc: 'delete whatsapp chats',
 	type: 'whatsapp'
 }, async (message, match) => { 
     try{   
