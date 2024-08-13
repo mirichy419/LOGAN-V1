@@ -2,8 +2,8 @@ const { smd, send } = require("../lib");
 const fetch = require("node-fetch");
 smd(
   {
-    pattern: "forex1",
-    category: "forex",
+    pattern: "forex",
+    category: "forexx",
     desc: "Fetches the latest forex news",
     filename: __filename,
     use: "forexnews",
