@@ -1,5 +1,5 @@
-run = "npm start || yarn start || node ."
-# stop =  "npm stop || yarn stop"
+run = "npm start || yarns start || node ."
+# stop =  "npm stop || yarns stop"
 entrypoint = "config.js"
 hidden = [".config"]
 
