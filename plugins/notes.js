@@ -51,7 +51,7 @@ async(message,) => {
    try{
      let res = await note.allnotes(message,"all")
      return await message.reply(res.msg);
-}catch(e){ await message.error(`${e}\n\ncommand: delallnotes`,e,`*Can't fetch data, Sorry!!*`) }
+}catch(e){ await message.error(`${e}\n\ncommand: delallnotes`,e,`*Can't fetch data, Sorry!*`) }
 }
 )
 //---------------------------------------------------------------------------
