@@ -36,7 +36,7 @@ async function textToLogoGenerator(message, textProUrl, text1, text2 = "ser", se
                      apiResponse && apiResponse.img ? apiResponse.img : false;
 
       if (retryOnFail) {
-        message.error(`${error}\n\nAPI Error: ${err}\n\nfileName: textToLogoGenerator->s.js`, error, (imageUrl ? `Here we go\n\n${imageUrl}` : "Error, Request Denied!").trim());
+        message.error(`${error}\n\nAPI Error: ${err}\n\nfileName: textToLogoGenerator->s.js`, error, (imageUrl ? `Here we go 🫢\n\n${imageUrl}` : "Error, Request Denied!").trim());
       }
     }
   }
