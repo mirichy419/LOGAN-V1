@@ -1,6 +1,6 @@
 export declare class TicTacToe {
     /* X PlayerName */
-    playerX: string;
+    playerX: string!;
     /* Y PlayerName */
     playerY: string;
     /* X if true, Y if false  */
