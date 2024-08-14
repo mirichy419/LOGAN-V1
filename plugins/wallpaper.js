@@ -5,7 +5,7 @@ const Config = require("../config");
 smd(
   {
     pattern: "aesthetic",
-    category: "wallpaper",
+    category: "wallpapers",
     filename: __filename,
     desc: "Get an aesthetic wallpaper.",
   },
@@ -31,14 +31,14 @@ smd(
 );
 smd(
     {
-      pattern: "bike",
+      pattern: "car",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a bike wallpaper.",
+      desc: "Get a car wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/bike";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/car";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -49,24 +49,24 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: bike",
+          error + "\n\ncommand: car",
           error,
           "*_No responce from API, Sorry!!_*"
         );
       }
     }
   );
-  // Command 2: cr7
+  // Command 2: colepalmer
 smd(
     {
-      pattern: "cr7",
+      pattern: "colepalmer",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a CR7 (Cristiano Ronaldo) wallpaper.",
+      desc: "Get a Colepalmer (Colepalmer) wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/cr7";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/colepalmer";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -77,7 +77,7 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: cr7",
+          error + "\n\ncommand: colepalmer",
           error,
           "*_No responce from API, Sorry!!_*"
         );
@@ -87,14 +87,14 @@ smd(
   // Command 3: cat
 smd(
     {
-      pattern: "cat",
+      pattern: "Dog",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a cat wallpaper.",
+      desc: "Get a dog wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/cat";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/dog";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -105,7 +105,7 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: cat",
+          error + "\n\ncommand: dog",
           error,
           "*_No responce from API, Sorry!!_*"
         );
@@ -196,17 +196,17 @@ smd(
       }
     }
   );
-  // Command 7: pubg
+  // Command 7: freefire
 smd(
     {
-      pattern: "pubg",
+      pattern: "freefire",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a PUBG wallpaper.",
+      desc: "Get a freefire wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/pubg";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/freefire";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -217,7 +217,7 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: pubg",
+          error + "\n\ncommand: freefire",
           error,
           "*_No responce from API, Sorry!!_*"
         );
@@ -254,17 +254,17 @@ smd(
     }
   );
   
-  // Command 9: car
+  // Command 9: cr7
   smd(
     {
-      pattern: "car",
+      pattern: "Ronaldo",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a car wallpaper.",
+      desc: "Get a cr7 wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/car";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/Ronaldo";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -275,7 +275,7 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: car",
+          error + "\n\ncommand: cr7",
           error,
           "*_No responce from API, Sorry!!_*"
         );
@@ -286,14 +286,14 @@ smd(
   // Command 10: blackpink
   smd(
     {
-      pattern: "blackpink",
+      pattern: "BTS",
       category: "wallpaper",
       filename: __filename,
-      desc: "Get a Blackpink wallpaper.",
+      desc: "Get a BTS wallpaper.",
     },
     async (m) => {
       try {
-        let apiUrl = "https://api.maher-zubair.tech/wallpaper/blackpink";
+        let apiUrl = "https://api.maher-zubair.tech/wallpaper/bts";
         let response = await fetch(apiUrl);
         let jsonResponse = await response.json();
   
@@ -304,7 +304,7 @@ smd(
         }
       } catch (error) {
         await m.error(
-          error + "\n\ncommand: blackpink",
+          error + "\n\ncommand: Bts",
           error,
           "*_No responce from API, Sorry!!_*"
         );
