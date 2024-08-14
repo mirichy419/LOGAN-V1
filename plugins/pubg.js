@@ -1,19 +1,19 @@
 let { smd, textToLogoGenerator, prefix } = require(lib_dir);
 let pubg = {
-  type: "pubg",
-  info: "create pubg text logo.",
+  type: "freefire",
+  info: "create freefire text logo.",
   filename: __filename,
 };
 let singleText = async (message, match, { cmdName }) => {
   try {
     let logo = {
-      pubg1:
+      freefire1:
         "tao-cover-game-pubg-anh-bia-game-playerunknown-s-battlegrounds-401",
-      pubg2: "tao-anh-bia-cover-facebook-game-pubg-407",
-      pubg3: "tao-logo-pubg-truc-tuyen-mien-phi-714",
-      pubg4: "tao-logo-mascot-pubg-online-sieu-ngau-716",
-      pubg5: "tao-logo-pubg-truc-tuyen-nhieu-mau-sac-717",
-      pubg6: "tao-logo-pubg-phong-cach-chibi-online-721",
+      freefire2: "tao-anh-bia-cover-facebook-game-freefire-407",
+      freefire3: "tao-logo-freefire-truc-tuyen-mien-phi-714",
+      freefire4: "tao-logo-mascot-freefire-online-sieu-ngau-716",
+      freefire5: "tao-logo-freefire-truc-tuyen-nhieu-mau-sac-717",
+      freefire6: "tao-logo-freefire-phong-cach-chibi-online-721",
     };
     if (!match) return message.reply(`*_Example : ${prefix + cmdName} Astro_*`);
     return await textToLogoGenerator(
@@ -28,10 +28,10 @@ let singleText = async (message, match, { cmdName }) => {
   }
 };
 //----------------------------------------------------------------------------------
-for (cmd of ["pubg1", "pubg2", "pubg3", "pubg4", "pubg5", "pubg6"]) {
-  smd({ cmdname: cmd, ...pubg }, singleText);
+for (cmd of ["freefire1", "freefire2", "freefire3", "freefire4", "freefire5", "freefire6"]) {
+  smd({ cmdname: cmd, ...freefire }, singleText);
 }
-smd({ cmdname: "pubg7", ...pubg }, async (message, match, { cmdName }) => {
+smd({ cmdname: "freefire7", ...freefire }, async (message, match, { cmdName }) => {
   try {
     let text1 = match ? match.split(";")[0] : "";
     let text2 = match ? match.split(";")[1] : "";
@@ -41,7 +41,7 @@ smd({ cmdname: "pubg7", ...pubg }, async (message, match, { cmdName }) => {
       );
     return await textToLogoGenerator(
       message,
-      "tao-logo-pubg-truc-tuyen-phong-cach-den-trang-715",
+      "tao-logo-freefire-truc-tuyen-phong-cach-den-trang-715",
       text1,
       text2,
       "1"
