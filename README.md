@@ -17,11 +17,11 @@
 
 #### SETUP 
 
-### 1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/mirichy419/LOGAN-V1/fork) It
+### 1.`First STAR 💫 This Repo ` And Then [`FORK`](https://github.com/mirichy419/LOGAN-V1/fork) It
 
 ### 2. GET SESSION ID HERE 
 
-<a href='https://logan-V1bot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=black'/></a> 
+<a href='https://logan-V1bot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 
 ### STEP 2
@@ -55,6 +55,11 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
 Add session Id to config.js and then deploy to codespace
     <br>
     <a href='https://github.com/codespaces' target="_blank"><img alt='Codespace' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=codespace&logoColor=white'/></a>
+
+    ### # DEPLOY ON panel
+1. IF YOU DONT HAVE A PANEL ACCOUNT OPEN ONE AND CONNECT WITH YOUR DISCORD ACCOUT TO Deploy.
+    <br>
+    <a href='https://bot-hosting.com/github/mirichy419/LOGAN-V1' target="_blank"><img alt='panel' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=render&logoColor=white'/></a>
 
 ***
 
