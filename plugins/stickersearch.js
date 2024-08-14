@@ -20,7 +20,7 @@ const {
         generateSticker: _0x5a889c
       } = require("../lib");
       if (!_0xa151c7) {
-        return _0x4cc234.reply("Sorry you did not give any search term!");
+        return _0x4cc234.reply("ohh pls you did not give any search term!");
       }
       const _0x1f4c84 = await axios.get("https://g.tenor.com/v1/search?q=" + _0xa151c7 + "&key=LIVDSRZULELA&limit=8").catch(() => {});
       if (!_0x1f4c84.data || !_0x1f4c84.data.results || !_0x1f4c84.data.results[0]) {
