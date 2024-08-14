@@ -26,7 +26,7 @@ async function randomeFunfacts(_0x1be35e) {
       const {
         data: _0x6d4253
       } = await axios.get("https://favqs.com/api/qotd");
-      return "╔════◇\n║ *🎗️Content:* " + _0x6d4253.quote.body + "\n║ *👤Author:* " + _0x6d4253.quote.author + "\n║\n╚════════════╝";
+      return "╔════◇\n║ *🏅Content:* " + _0x6d4253.quote.body + "\n║ *👤Author:* " + _0x6d4253.quote.author + "\n║\n╚--════════════--╝";
     }
   } catch (_0x1147af) {
     msg.error(_0x1147af);
@@ -63,7 +63,7 @@ smd(
   }
 );
 smd({
-  cmdname: "question",
+  cmdname: "que",
   info: "Random Question.",
   type: "fun",
   filename: __filename
@@ -78,7 +78,7 @@ smd({
 });
 smd({
   cmdname: "truth",
-  info: "truth and dare(truth game.).",
+  info: "truth and dare🍆(truth game.).",
   type: "fun",
   filename: __filename
 }, async (_0xc2b276, _0x3b493e, {
@@ -92,7 +92,7 @@ smd({
 });
 smd({
   cmdname: "dare",
-  info: "truth and dare(dare game.).",
+  info: "truth and dare 🍆(dare game.).",
   type: "fun",
   filename: __filename
 }, async (_0x330b72, _0x34d36a, {
@@ -105,7 +105,7 @@ smd({
   }
 });
 smd({
-  cmdname: "joke",
+  cmdname: "crackjoke",
   info: "Sends Joke in chat.",
   type: "fun",
   filename: __filename
@@ -119,7 +119,7 @@ smd({
   }
 });
 smd({
-  cmdname: "joke2",
+  cmdname: "joke1",
   info: "Sends Joke in chat.",
   type: "fun",
   filename: __filename
@@ -181,7 +181,7 @@ smd({
   }
 });
 smd({
-   pattern: 'fakeinfo',
+   pattern: 'falseinfo',
    fromMe: false,
    desc: 'Get fake information',
    type: 'fun'
@@ -207,7 +207,7 @@ smd({
    }
 });
 smd({
-   pattern: 'insult',
+   pattern: 'abuse',
    fromMe: false,
    desc: 'Get insulted',
    type: 'fun'
