@@ -235,7 +235,7 @@ smd({
     } = require("../lib");
     const _0x376671 = "./plugins/meme.say/modi.png";
     const _0x421d98 = "./temp/modi.png";
-    const _0x4fbe21 = 20;
+    const _0x4fbe21 = 30;
     const _0x2c7e3b = 70;
     const _0x355c11 = 500;
     const _0x104f3a = 4;
