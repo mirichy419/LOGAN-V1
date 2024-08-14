@@ -6,7 +6,7 @@ smd(
   {
     pattern: "wanews",
     alias: ["wa"],
-    desc: "Fetches the latest WhatsApp beta news for Android.",
+    desc: "Fetches the latest WhatsApp beta news for android.",
     category: "news",
     filename: __filename,
     use: "wanews",
@@ -310,11 +310,11 @@ smd({
       const data = response.data.result;
       
       const news = `
-🚀 *Title:* ${data.title}
+📌 *Title:* ${data.title}
 📅 *Date:* ${data.date}
-📝 *Explanation:* ${data.explanation}
-🔗 *More Info:* [Read More](${data.url})
-📢 *Copyright:* ${data.copyright}
+📒 *Explanation:* ${data.explanation}
+🫥 *More Info:* [Read More](${data.url})
+©© *Copyright:* ${data.copyright}
       `;
       
       await message.send(news, { quoted: message.data });
