@@ -5,7 +5,7 @@ const { cmd } = require("../lib/plugins");
 let mtypes = ["imageMessage"];
 smd(
   {
-    pattern: "pp",
+    pattern: "spp",
     desc: "Set profile picture",
     category: "whatsapp",
     use: "<reply to image>",
@@ -33,7 +33,7 @@ smd(
 );
 smd(
   {
-    pattern: "fullpp",
+    pattern: "sfullpp",
     desc: "Set full screen profile picture",
     category: "whatsapp",
     use: "<reply to image>",
@@ -46,7 +46,7 @@ smd(
         ? _0x36432c
         : _0x36432c.reply_message;
       if (!_0x312b1b || !mtypes.includes(_0x312b1b?.mtype || "need_Media")) {
-        return await _0x36432c.reply("*Reply to an image, dear*");
+        return await _0x36432c.reply("*Reply to an image, cutie*");
       }
       return await updateProfilePicture(
         _0x36432c,
